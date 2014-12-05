@@ -1,0 +1,13 @@
+{
+  "name": "hmac-sha1",
+  "version": "0.1.0",
+  "repo": "Akagi201/hmac-sha1",
+  "description": "Standalone implementation of `HMAC()` + `EVP_sha1()` in `OpenSSL`",
+  "license": "MIT",
+  "src": [
+    "src/hmac/hmac_sha1.c",
+    "src/hmac/hmac.h",
+    "src/sha/sha1.c",
+    "src/sha/sha.h"
+  ]
+}
